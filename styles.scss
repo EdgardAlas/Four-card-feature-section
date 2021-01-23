@@ -7,7 +7,8 @@ $blue: hsl(212, 86%, 64%);
 
 // Neutral
 
-$very-dark-blue: hsla(234, 12%, 34%, 0.2);
+$very-dark-blue-a: hsla(234, 12%, 34%, 0.2);
+$very-dark-blue: hsl(234, 12%, 34%);
 $grayish-blue: hsl(229, 6%, 66%);
 $very-light-gray: hsl(0, 0%, 98%);
 
@@ -36,6 +37,7 @@ body {
     background-color: $very-light-gray;
     font-family: $font-family;
     font-size: $font-size;
+    color: $very-dark-blue;
 }
 
 *{
@@ -98,7 +100,7 @@ body {
 }
 
 .card {
-    box-shadow: 0px 9px 34px -9px $very-dark-blue;
+    box-shadow: 0px 9px 34px -9px $very-dark-blue-a;
     border-radius: 0.3rem;
     display: flex;
     flex-direction: column;
